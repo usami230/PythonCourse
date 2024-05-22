@@ -1,3 +1,14 @@
+# creat folder
+# open vscode from terminal using the command "code ."
+# create file "main.py"
+# change directory using command "cd"
+# move backward using command "cd .."
+# open folder/directory using command "cd <folder_name>"
+# run python file using command "python <file_name>.py"
+# open integrated terminal in vscode using the menu > terminal -> new terminal
+
+
+
 #   --------------Topic Comments
 # Method 1 Multi lines Comment
 
@@ -38,3 +49,19 @@ print("hello,", "world", sep="")
 print("hello", "world", sep="")
 print("hello", "world")
 print('After the storm, we jumped in "big puddles" outside.')
+
+
+
+
+# display the follwing menu
+# NOTE: the whole text should be saved in one variable "menu"
+# """
+# Welcome to the Python Cafe
+#     1. Coffe        $2.00
+#     2. Tea          $ 1.50
+# """
+
+
+# solution
+menu = "Welcome to the Python Cafe \n\t1.Coffe\t\t$2.00 \n\t2.Tea\t\t$1.50"
+print(menu)
