@@ -254,6 +254,8 @@ else:
 """
 
 
+#Q20 create the same ATM machine program that we do in last class.
+"""
 card_type = input("Enter card type (affiliated_card/govt_employee): ")
 age = int(input("Enter your age: "))
 amount = int(input("Enter amount to withdraw: "))
@@ -271,3 +273,5 @@ elif card_type == "affiliated_card" and age < 60:
     print("Amount withdrawn: Rs.  "+str(amount))
 else:
     print("Sorry, you are not eligible to withdraw money.")
+    
+"""
